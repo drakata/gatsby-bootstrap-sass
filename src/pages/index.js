@@ -1,5 +1,14 @@
-import React from "react"
+import React from 'react';
 
-export default function Home() {
-  return <div className="p-5">Hello world!</div>
-}
+const IndexPage = () => (
+  <div className="container-fluid px-0 bg-themeLighterAlt">
+    <section />
+    <section />
+
+    <section className="bg-neutralLighter py-5" />
+    <section className="bg-color-primary-4 py-5" />
+  </div>
+
+);
+
+export default IndexPage;
